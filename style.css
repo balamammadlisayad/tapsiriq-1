@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.logo {
+width: 270px;
+height: 106px;
+object-fit: contain;
+}
+
+.logo-section {
+    display: flex;
+ 
+    background-color: white;
+    transform: translateX(7%);
+}
+
+.header {
+    padding: 10px;
+}
+
+.nav-links {
+    display: flex;
+   justify-content: center;
+   background-color: #da0000;
+   height: 60px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+   padding: 18px;
+  
+   margin-right: 5px;
+}
+.nav-links a:hover {
+    border-bottom: 3px solid #fff;
+    transition: .7s linear;
+}
+i {
+    color: rgb(252, 251, 251);
+    font-size: 13px;
+}
+
+a:nth-child(11) {
+    margin-right: 25px;
+}
+
+.dollar {
+    width: 55px;
+    height: 55px;
+    border: 1px solid rgb(40, 14, 143) ;
+    color: rgb(40, 14, 143);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 35px;
+
+}
+
+.euro {
+    width: 55px;
+    height: 55px;
+    border: 1px solid rgb(193, 45, 12) ;
+    color:rgb(193, 45, 12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 35px;
+}
+
+.rubl {
+    width: 55px;
+    height: 55px;
+    border: 1px solid rgb(3, 207, 218) ;
+    color: rgb(3, 207, 218);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 35px;
+}
+
+.tl {
+    width: 55px;
+    height: 55px;
+    border: 1px solid rgb(255, 78, 8) ;
+    color: rgb(255, 78, 8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 35px;
+}
+
+.dollar:hover {
+    background: rgb(40, 14, 143);
+    color:#ffffff;
+    transition: .4s ease-in;
+}
+
+.rubl:hover {
+    background: rgb(3, 207, 218);
+    color:#ffffff;
+    transition: .4s ease-in;
+}
+.euro:hover {
+    background: rgb(193, 45, 12);
+    color:#ffffff;
+    transition: .4s ease-in;
+}
+
+.tl:hover {
+    background: rgb(255, 78, 8);
+    color:#ffffff;
+    transition: .4s ease-in;
+}
+
+.currency {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 10px;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
